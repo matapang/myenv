@@ -7,6 +7,7 @@ You’ll need to have Node >= 6 on your local development machine
 
 [How To Run]
 1. To launch development server:
+     > npm install
      > npm start
    This will launch a browser on the following url: http://localhost:3000/
 2. To run test cases
