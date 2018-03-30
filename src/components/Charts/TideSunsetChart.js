@@ -17,8 +17,7 @@ var option = {
     tooltip: {
         trigger: 'axis',
         formatter: function (params) {            
-            const data =params[0].data;
-            console.log(data)
+            const data =params[0].data;            
             return data ? `${data[2]} ${data[1]} Meters`: "";
         },
         axisPointer: {

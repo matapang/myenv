@@ -20,7 +20,7 @@ const WeatherForecast = ({forecast = []}) => {
                 <div>                                 
                     <WeatherIcon type={f.type} style={{width:50, height:50}}/>
                 </div>
-                <h4>{f.temp}<i className="ml-md-1 wi wi-celsius" /></h4>
+                <h4>{f.temp}&#176;</h4>
             </div>)}
         </div>
     )

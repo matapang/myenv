@@ -9,7 +9,7 @@ const WeatherSummary = ({weather = {}}) => {
             <WeatherIcon type={weather.type}/>            
             <div className="pl text=truncate">
                 <strong>{moment().format("DD-MM-YYYY")}</strong>
-                <h2>{weather.temp}<i className="ml-md-1 wi wi-celsius" /></h2>
+                <h2>{weather.temp}&#176;C</h2>
                 <p>
                     {weather.summary}
                     <br/>
