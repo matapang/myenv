@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Card should match snapshot 1`] = `
-<div
-  className="pt-card pt-elevation-0 bg-main pt-elevation-2 "
->
-  I am a child of this Card
-</div>
-`;
